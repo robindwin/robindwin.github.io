@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body {
+    background-color: #fdfde8 ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font: 'Titillium Web', sans-serif;
+    font-size: 17px;
+}
+
+html, body{
+    height:100%;
+    width:100%;
+    padding:0;
+    margin:0;
+
+}
+
+html {
+    /*background-color: lightgrey;*/
+}
+
+.logo h1{
+    text-align: center;
+    font-family: 'Calligraffitti', cursive;
+    font-size: 50px;
+    color: yellow;
+    padding: .2em 0 .2em 0;
+
+}
+
+p {
+    text-align: left;
+}
+
+a {
+    color: blue;
+
+}
+
+a:hover{
+    color: red;
+    text-decoration: none;
+    font-size: 110%;
+
+}
+
+/* --------------------- navbar -----------------------*/
+
+.NavLinks a{
+    color: yellow;
+}
+
+.NavLinks a:hover{
+    color: yellow;
+}
+
+.dml {
+    background-color: #eff5b0;  //green
+    font-size: 110%;
+    color: white;
+}
+
+.dml a{
+    color: black;
+}
+.dml a:hover{
+    color: red;
+}
+
+
+@media only screen and (min-width: 250px)
+    and (max-width: 400px){
+
+    .backcolour {
+        background-color: blue;
+        font-size: 120%;
+    }
+    .NavLinks a{
+        color: yellow;
+    }
+    /*.NavLinks a:hover {
+        color: blue;
+    }*/
+
+}
+
+@media only screen and (min-width: 400px)
+    and (max-width: 576px){
+
+    .backcolour {
+        background-color: blue;
+        font-size: 120%;
+    }
+    .NavLinks a{
+        color: yellow;
+    }
+    /*.NavLinks a:hover {
+        color: blue;
+    }*/
+
+
+}
+
+@media only screen and (min-width: 576px)
+    and (max-width: 768px){
+
+    .backcolour {
+        background-color: blue;
+        font-size: 120%;
+        /*color:white;*/
+    }
+    .dml {
+        //color: white;
+    }
+
+}
+
+@media only screen and (min-width: 768px)
+    and (max-width: 992px){
+
+    .backcolour {
+        background-color: blue;
+        font-size: 120%;
+      //  padding-left: 3.4em;
+    }
+}
+
+@media only screen and (min-width: 992px)
+    and (max-width: 1200px){
+
+    .backcolour {
+        background-color: blue;
+        font-size: 120%;
+        padding-left: 1.2em;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .backcolour {
+        background-color: blue;
+        font-size: 120%;
+
+        padding-left: 5.6em;
+    }
+}
+
+/* ----------------- end of navbar -------------------- */
+
+#mainContent {
+    background-color: #fdfde8 ;
+}
+
+.innerBody h3{
+    text-align: center;
+}
+
+.muLogo img{
+    max-width: 100%;
+}
+
+/* FOOTER */
+
+
+
+
+/*--------------------------END OF GLOBAL CSS ------------------------- */
+
+/*--------------------------LANDING PAGE (index.php---------------------*/
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: none;
+}
+
+.flex-container > div {
+    color: white;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+}
+
+.flex-container > div p{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.flex-container .welcome {
+    border: 2px solid white;
+    background-color: white;
+    width:320px;
+    height:50px;
+    border-radius: 1em;
+}
+
+.flex-container .welcome a:hover{
+    font-size: 100%;
+}
+
+
+
+/*---------------------------End of Landing page----------------------------*/
+
+/* ------------------------- HOME PAGE (home.php) CSS---------------------------  */
+.index {
+    padding-left: 2em;
+    padding-top:1em;
+}
+
+.index h1{
+    padding-bottom: .25em;
+    text-align: center;
+}
+
+.indexMain {
+    padding-top: 2em;
+}
+
+.quickNotices {
+    padding-right: 2em;
+    text-align: justify;
+}
+
+.quickNotices h3{
+    text-align: center;
+}
+
+.quickNotices img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 2em;
+}
+
+.quickNotices ul li {
+    list-style-type: square;
+    text-align: justify;
+    padding-top: 2em;
+}
+
+
+.indexImages {
+    padding-bottom: 2em;
+}
+.indImg {
+    border-radius: 1em;
+}
+/******************  End of Home.php***************************/
+
+/**************** News.php ********************************/
+.newsTopic{
+    font-size: 14pt;
+    background: lightblue;
+    border-top-left-radius: 4px;
+}
+
+#newsDisplay{
+    color: black;
+}
+
+#newsDisplay p{
+    text-align: justify;
+}
+
+#news h4{
+    text-align: center;
+}
+
+.newsTopic a{
+    color:darkblue;
+    text-decoration: underline;
+
+}
+
+.newsTopic a:hover{
+    color: white;
+    font-size: 14pt;
+    text-decoration: none;
+}
+
+.newsTopic p{
+    color: white;
+}
+
+.newsImage{
+    background-color:  #F1F1D4;
+}
+
+/*.news_pic_right{
+    float: right;
+    margin: 10px 20px 10px 20px;
+    right: 10px;
+    text-align: center;
+    color: black;
+    background: white;
+    font-size: 12px;
+}*/
+
+.pic_right{
+    float: right;
+    margin: 0 10px 0 10px;
+    right: 10px;
+    text-align: center;
+    color: black;
+    background: white;
+    font-size: 12px;
+}
+
+.pic_left{
+    float: left;
+    margin: 0 10px 0 10px;
+    left: 10px;
+    text-align: center;
+    color: black;
+    background: white;
+    font-size: 12px;
+}
+
+/*end of news.php*/
+
+/*Construction*/
+.construction {
+    text-align: center;
+
+}
+
+.construction img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border-radius: 2em;
+}
+
+/*  History */
+.history p{
+    text-align: justify;
+}
+.history h1{
+    text-align: center;
+}
+
+/* End of History*/
+
+/*Corporate*/
+.corporate h1{
+    text-align: center
+}
+
+.corporate p {
+    text-align: center;
+}
+
+
+/*End of corporate*/
+
+/*Meetings*/
+
+tr:nth-child(odd) {background-color: #f2f2f2;}
+
+.noticeListing table {
+    display: table;
+    width: 100%
+}
+
+.noticeListing {
+    width: 100%;
+    height: auto;
+    padding-bottom: 1em;
+    color: black;
+}
+
+.noticeListing a{
+    color: darkblue;
+}
+
+.noticeListing a:hover{
+    color: red;
+}
+
+.nHeader {
+    text-align: center;
+}
+
+.noticePrecis {
+    height: 350px;
+    overflow: scroll;
+    float: left;
+    margin: 2em 0 2em 1em;
+    background-color:lightgrey;
+    text-align: justify;
+    color: black;
+    border: 1px solid white;
+}
+
+.noticePrecis h4, h5 {
+    text-align: center;
+}
+.noticeOther h4, h5 {
+    text-align: center;
+}
+
+.noticeOther {
+    background-color: lightblue;
+    color: black;
+    text-align: justify;
+    margin: 2em 0 2em 2em;
+}
+
+.noticeOther a {
+    color: darkblue;
+}
+
+.noticeOther a:hover {
+    color: red;
+}
+
+/*End of meetings*/
+
+/*Galleries*/
+.gallery img{
+    max-width: 90%;
+    max-height:90%;
+    border-radius: 1.1em;
+    margin-left: 2em;
+    margin-bottom: 1em;
+}
+
+.imageGallery h1{
+    text-align: center;
+    margin-bottom: .5em;
+    margin-top: .5em;
+}
